@@ -270,15 +270,22 @@ body{
 }
 
 strong{
-    font-family : 'robotostrong'
+    color       :   #8F1A01;
 }
 
 small{
+    
+    color : #7E725E; 
     font-family: 'robotolight';
 }
 
+hr{
+    border : none;
+    border-bottom : 1px solid #7E725E;
+}
+
 a{
-    color : black;
+    color : #128FA8;
     text-decoration : none;
 }
 
@@ -286,8 +293,18 @@ li{
     list-style-type : none;
 }
 
-h1{
+h1, h2, h3, h4{
     color   :   #073842;
+}
+
+h3{
+    font-size : 32px;
+}
+
+
+
+.warning{
+    color       :   #8F1A01;
 }
 
 /** MAIN TITLE **/
@@ -296,6 +313,7 @@ h1{
 }
 
 .title a{
+    color       :   black;
     font-family: 'bebasbook';
 
 }
@@ -354,13 +372,11 @@ h1{
     text-align : center;
     padding-bottom : 2%;
     padding-top : 2%;
-    /* border-top : 1px solid #D4D4D4; */
 }
 
 .home-footer a{
     text-decoration: none;
     color :#7E725E;
-    /* color : #D4D4D4; */
 }
 
 
@@ -395,14 +411,111 @@ h1{
     float: left;
 }
 
+.head-caption a{
+    color : black;
+}
+
 .content{
     min-height : 80%;
 }
 
 .footer-caption{
-    position :fixed;
     bottom : 0;
     width   :   100%;
     padding : 2% 0;
     text-align : center;
+}
+
+
+.footer-caption a{
+    color :#7E725E;
+}
+
+/** Sticker page style **/
+
+.sticker-title{
+    text-align : center;
+    margin-top : 40px;
+    margin-bottom : 10px;
+    font-size : 64px;
+    font-family : 'robotobold';
+}
+
+.sticker-title small,
+h3 small
+{
+    font-size : 13px;
+}
+
+.sticker-categories{
+    margin-bottom : 120px;
+    text-align      :   center;
+}
+
+.pictures{
+    min-height          :   500px;
+    overflow : hidden;
+    border-top : 1px solid #7E725E;
+    border-bottom : 1px solid #7E725E;
+}
+
+.list-pictures{
+   max-width : 100%; 
+}
+
+.list-pictures li{
+    max-width : 150px;
+    max-height : 150px;
+    display: inline-block;
+}
+
+.list-pictures li img{
+    max-width : 100%;
+    max-height : 100%;
+}
+
+.list-pictures li .list-picture-legend{
+    display :   none;
+}
+
+.available-img{
+    overflow : hidden;
+}
+
+
+.available-img+.selected{
+    border : 5px solid black !important;
+}
+
+.showed-picture-caption{
+    height : 500px;
+    overflow : hidden;
+}
+
+.showed-picture-content{
+    text-align : center;
+}
+
+.showed-picture-content img{
+    width : 75%;
+    vertical-align : middle;
+    display : inline-block;
+}
+
+.showed-picture-description{
+    display : none;
+    position : absolute;
+    bottom : 0;
+    background-color    :   rgba(63, 57, 47, 0.7);
+    width               :   100%;
+    min-height          :   100px;
+    color: white;
+    overflow            :   auto;
+    padding             :   2%;
+}
+
+.sticker-information{
+    display : block;
+    margin-top : 160px;
+    width : 100%;
 }
