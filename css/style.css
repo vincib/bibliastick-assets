@@ -256,8 +256,21 @@
     font-style: normal;
 }
 
+html, body{
+    height : 100%;
+}
+
+body{
+    margin : 0;
+    position : relative;
+}
+
 *{
     font-family: 'robotoregular';
+}
+
+strong{
+    font-family : 'robotostrong'
 }
 
 small{
@@ -269,7 +282,15 @@ a{
     text-decoration : none;
 }
 
+li{
+    list-style-type : none;
+}
 
+h1{
+    color   :   #073842;
+}
+
+/** MAIN TITLE **/
 .title{
     font-family: 'bebasbook';
 }
@@ -282,7 +303,106 @@ a{
     font-family: 'bebasregular';
 }
 
+/** HOME PAGE SPECIFIC STYLE **/
+
 .home-content{
     text-align : center;
 }
 
+.home-content h1{
+    margin-top : 25%; 
+    margin-bottom : 5%; 
+    font-size: 64px;
+}
+
+.home-content h1 img{
+    vertical-align: middle
+}
+
+.home-form-search{
+    margin  : 0 auto;
+    padding : 5px;
+    width   : 75%;
+}
+
+.home-form-search input{
+    border: none;
+    background-color : white;
+    width: 75%;
+    font-size : 18px;
+    padding : 5px;
+    border-bottom : 1px solid #FEE5BD; 
+}
+
+.home-form-search input::placeholder{
+    color : #FEC871;
+}
+
+.home-form-search input:focus{
+    border-bottom : 1px solid #0A4E5C;
+}
+
+.home-form-search button{
+    right       :   5px;
+    background : none;
+    border : none;
+}
+
+.home-footer{
+    position : fixed;
+    bottom      :   0;
+    text-align : center;
+    padding-bottom : 2%;
+    padding-top : 2%;
+    /* border-top : 1px solid #D4D4D4; */
+}
+
+.home-footer a{
+    text-decoration: none;
+    color :#7E725E;
+    /* color : #D4D4D4; */
+}
+
+
+/** DEFAULT LAYOUT **/
+.head-caption{
+   width            :   100%;
+   max-height           :   15%;
+   text-align       :   center;
+   border-bottom : 1px solid #FEE58D ;
+   box-shadow: 0px 1px 3px 0px #FEE58D ;
+}
+
+.head-caption .container{
+    display : inline-block;
+    
+}
+
+.head-caption h1, .head-caption div{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.head-caption h1 img{
+    vertical-align : middle;
+}
+
+.head-caption-actions{
+    float: right;
+}
+
+.head-caption h1{
+    float: left;
+}
+
+.content{
+    min-height : 80%;
+}
+
+.footer-caption{
+    position :fixed;
+    bottom : 0;
+    width   :   100%;
+    padding : 2% 0;
+    text-align : center;
+}
