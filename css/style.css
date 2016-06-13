@@ -301,6 +301,37 @@ h3{
     font-size : 32px;
 }
 
+table{
+    width : 100%;
+    border-collapse: collapse;
+
+}
+th input, td input,
+th, td{
+    padding : 5px;
+}
+
+th input[type=submit], td input[type=submit],
+th select, td select{
+    background : none;
+    border : 3px solid #073842;
+    border-radius : 5px;
+    font-size : 16px;
+
+}
+
+th, td {
+    border-bottom: 1px solid #7E725E;
+}
+
+td{
+    vertical-align  : middle;
+}
+
+thead th, thead td {
+    border-bottom: 1px solid #3F392F;
+    font-family : "robotobold";
+}
 
 
 .warning{
@@ -671,4 +702,46 @@ h3 small
     font-size : 16px;
 }
 
+/** Login form **/
+.login-form label{
+    float : left;
+    width : 300px;
+    padding : 5px;
+}
+
+.login-form input{
+    padding : 5px;
+}
+
+.login-form p{
+    width : 50%;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+.login-title{
+    color : black;
+    text-align : center;
+    margin-bottom : 100px;
+}
+
+.login-form .add{
+    display : block;
+    margin-top 10px;
+    margin-left : auto;
+    margin-right : auto;
+    background : none;
+    border : 3px solid #073842;
+    border-radius : 5px;
+    font-size : 16px;
+}
+
+
+
+
+/** Back layout **/
+.head-caption{
+   border-bottom : 1px solid #9C1C01 ;
+   box-shadow: 0px 1px 3px 0px #8F1A01 ;
+}
 
