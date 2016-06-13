@@ -703,20 +703,28 @@ h3 small
 }
 
 /** Login form **/
+.pass-form label,
 .login-form label{
     float : left;
     width : 300px;
     padding : 5px;
 }
 
+.pass-form input,
 .login-form input{
     padding : 5px;
 }
 
+.pass-form p,
 .login-form p{
     width : 50%;
     margin-left : auto;
     margin-right : auto;
+}
+
+.pass-form p{
+    margin : 0;
+    display: inline-block;
 }
 
 .login-title{
@@ -725,6 +733,7 @@ h3 small
     margin-bottom : 100px;
 }
 
+.pass-form .add,
 .login-form .add{
     display : block;
     margin-top 10px;
@@ -735,7 +744,6 @@ h3 small
     border-radius : 5px;
     font-size : 16px;
 }
-
 
 
 
