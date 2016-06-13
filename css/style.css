@@ -447,6 +447,13 @@ h3 small
     font-size : 13px;
 }
 
+.sticker-title button{
+    background : none;
+    border : none;
+    font-size : 64px;
+    color : #073842;
+}
+
 .sticker-categories{
     margin-bottom : 120px;
     text-align      :   center;
@@ -517,5 +524,118 @@ h3 small
 .sticker-information{
     display : block;
     margin-top : 160px;
+    margin-bottom : 160px;
     width : 100%;
 }
+
+/** search page **/
+.search-results img{
+    margin-top : 37.5px;
+    height : 100px;
+    vertical-align : middle;
+    
+}
+
+.search-results{
+    min-height : 175px;
+}
+
+/** Page édition **/
+.edit-title{
+    margin-bottom : 160px;
+}
+
+.sticker-edit-categorie{
+    border-top : 1px solid black;
+    margin-bottom : 160px;
+}
+
+.sticker-edit-categorie h4{
+    margin-bottom : 60px;
+    margin-top : 60px;
+}
+
+.categorie-edit p{
+    text-align : center;
+}
+
+.categorie-edit span{
+    display: inline-block;
+    border : 3px solid black;
+    border-radius : 5px;
+}
+
+.categorie-edit select,
+.categorie-edit button,
+.categorie-edit input
+{
+    display : inline-block;
+    border : none;
+    background : none;
+    font-size : 32px;
+}
+
+.picture-edit textarea{
+    width : 100%;
+    border : none;
+    padding : 2%;
+    border : 1px solid #073842;
+    border-radius : 5px;
+}
+
+.picture-edit label{
+    float : left;
+    width : 200px;
+}
+
+.picture-edit select,
+.picture-edit input{
+    background : none;
+}
+
+.picture-edit .add{
+    margin-top 10px;
+    border : 3px solid #073842;
+    border-radius : 5px;
+    font-size : 16px;
+}
+
+.picture-edit img{
+    margin-top : 22px; 
+    max-height : 150px;
+    max-width   : 150px;
+}
+
+.legend h4{
+    margin-top : 22px;
+    margin-bottom : 5px;
+}
+
+.legend .col{
+    min-height : 420px;
+}
+
+.info-edit{
+
+}
+
+.info-edit textarea{
+    width : 100%;
+    border : none;
+    padding : 2%;
+    border : 1px solid #073842;
+    border-radius : 5px;
+}
+
+.info-edit .add{
+    display : block;
+    margin-top 10px;
+    margin-left : auto;
+    margin-right : auto;
+    background : none;
+    border : 3px solid #073842;
+    border-radius : 5px;
+    font-size : 16px;
+}
+
+
